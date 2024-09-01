@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlonkAI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('background.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav ul li {
+            margin: 0 20px;
+        }
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .nav ul li a:hover {
+            color: #1e90ff;
+        }
+        .container {
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+            padding: 40px;
+            border-radius: 25px;
+            background: linear-gradient(145deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)); /* Smooth gradient background */
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7); /* Enhanced shadow for depth */
+            backdrop-filter: blur(15px); /* Increased blur for modern look */
+            max-width: 600px; /* Limit width for better appearance */
+            width: 100%;
+            height: auto;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* More pronounced text shadow */
+        }
+        p {
+            margin: 20px 0 40px;
+            font-size: 1.4rem;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #ddd; /* Slightly lighter text color */
+        }
+        .button {
+            background: linear-gradient(45deg, #1e90ff, #00bfff);
+            border: none;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+            text-decoration: none; /* Remove underline */
+        }
+        .button:hover {
+            background: linear-gradient(45deg, #00bfff, #1e90ff);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+        }
+        .button:active {
+            transform: translateY(-2px); /* Subtle effect when clicked */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Slightly reduced shadow when clicked */
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="beta.html">Download</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>BlonkAI</h1>
+        <p>The BEST free AI solution for everyday tasks</p>
+        <a href="beta.html" class="button">Download Now</a>
+    </div>
+</body>
+</html>

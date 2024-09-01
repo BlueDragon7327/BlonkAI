@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Latest Beta (0.4.2)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('background.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav ul li {
+            margin: 0 20px;
+        }
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .nav ul li a:hover {
+            color: #1e90ff;
+        }
+        .container {
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+            padding: 40px;
+            border-radius: 25px;
+            background: linear-gradient(145deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)); /* Smooth gradient background */
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7); /* Enhanced shadow for depth */
+            backdrop-filter: blur(15px); /* Increased blur for modern look */
+            max-width: 600px; /* Limit width for better appearance */
+            width: 100%;
+            height: auto;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* More pronounced text shadow */
+        }
+        p {
+            margin: 20px 0 40px;
+            font-size: 1.4rem;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #ddd; /* Slightly lighter text color */
+        }
+        .button {
+            display: inline-block;
+            background: #1e90ff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 25px;
+            text-align: center;
+            text-decoration: none; /* Remove underline */
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+        }
+        .button:hover {
+            background: #00bfff;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+        }
+        .button:active {
+            transform: translateY(-1px); /* Subtle effect when clicked */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly reduced shadow when clicked */
+        }
+        .download-list {
+            margin-top: 20px;
+            text-align: center; /* Center text */
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .download-list li {
+            margin: 10px 0;
+        }
+        .download-list a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="beta.html">Download</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Download Latest Beta (0.4.2)</h1>
+        <p>Select your operating system to download the latest beta version:</p>
+        <ul class="download-list">
+            <li><a href="https://drive.google.com/file/d/1BjNwgoX4P8P-g7B-X6dA49QpPKOvpQKj/view?usp=sharing" target="_blank" class="button">Windows</a></li>
+            <li><a href="https://drive.google.com/file/d/1-7BKbftZLEUy4g6cAhh5XcNVXVQzuxPc/view?usp=sharing" target="_blank" class="button">macOS</a></li>
+            <li><a href="https://drive.google.com/file/d/1xWcf7BF6fKYOqX4xlHSMjnWp07olmf6v/view?usp=sharing" target="_blank" class="button">Linux</a></li>
+            <li><a href="https://drive.google.com/file/d/1OMZpq3vRy0yVKPNaSFVRnlWd1L95coMj/view?usp=sharing" target="_blank" class="button">Android</a></li>
+        </ul>
+        <a href="index.html" class="button">Back to Home</a>
+    </div>
+</body>
+</html>
