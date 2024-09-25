@@ -1,10 +1,8 @@
 BlonkAI Terms of Service
 
 1. Acceptable Use Users of BlonkAI must adhere to the following usage guidelines:
-
   Prohibited Content: You may not use BlonkAI to generate or facilitate explicit, inappropriate, or harmful content.
   API Restrictions: The BlonkAI API is strictly for use within the BlonkAI platform. Use of the API for any personal, business, or external purposes is not permitted.
 
 2. Distribution Rights BlonkAI is proprietary software. Distribution of BlonkAI or its resources is not allowed except in the following cases:
-
-Official Links: You may only share BlonkAI by linking directly to the official BlonkAI website or its official Discord server.
+  Official Links: You may only share BlonkAI by linking directly to the official BlonkAI website or its official Discord server.
