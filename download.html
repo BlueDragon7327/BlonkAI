@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlonkAI - Download</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('background.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav ul li {
+            margin: 0 20px;
+        }
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .nav ul li a:hover {
+            color: #1e90ff;
+        }
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 30px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+            max-width: 1200px;
+            width: 90%;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+        }
+        p {
+            margin: 20px 0 40px;
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #ddd;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px; /* Space between cards */
+        }
+        .download-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #1e90ff, #00bfff);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            height: 60px; /* Adjusted height */
+            min-width: 150px; /* Set a minimum width */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        .download-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+        .download-card::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transition: transform 0.5s ease;
+            z-index: 0;
+            transform: translate(-50%, -50%) scale(0);
+        }
+        .download-card:hover::before {
+            transform: translate(-50%, -50%) scale(1);
+        }
+        .download-card > span {
+            position: relative;
+            z-index: 1;
+        }
+        .icon {
+            width: 30px; /* Smaller icon size */
+            height: 30px;
+            margin-right: 10px; /* Adjusted margin */
+        }
+        @media (max-width: 768px) {
+            .download-card {
+                height: auto;
+                padding: 10px;
+                min-width: 120px; /* Smaller minimum width */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="beta.html">Download</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Download BlonkAI</h1>
+        <p>Your ultimate free AI solution for everyday tasks.</p>
+        <div class="card-container">
+            <a href="https://github.com/BlueDragon7327/blonkai/releases/latest/download/blonkaiinstaller.msi" class="download-card">
+                <span>Windows Version</span>
+            </a>
+            <a href="https://github.com/BlueDragon7327/blonkai/releases/latest/download/blonkaimacos.zip" class="download-card">
+                <span>MacOS Version</span>
+            </a>
+            <a href="https://github.com/BlueDragon7327/blonkai/releases/latest/download/blonkailinux.zip" class="download-card">
+                <span>Linux Version</span>
+            </a>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
