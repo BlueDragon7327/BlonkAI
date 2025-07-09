@@ -1,0 +1,21 @@
+{
+  "name": "BlonkAI",
+  "short_name": "BlonkAI",
+  "description": "AI chat with persistent history and token management.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#764ba2",
+  "icons": [
+    {
+      "src": "icons/BlonkAI Logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/BlonkAI Logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
